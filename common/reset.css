@@ -2,6 +2,30 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+<<<<<<< HEAD
+=======
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 700;
+}
+strong,
+span,
+em {
+  display: inline-block;
+}
+p {
+  line-height: 1.4;
+}
+img {
+  /* width: 100%; */
+  max-width: 100%;
+}
+>>>>>>> e641fdf840a1fa5a305cb063457ff8bbe9ec4e7f
 
 html,
 body,
@@ -88,9 +112,16 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
+<<<<<<< HEAD
 
   vertical-align: baseline;
 }
+=======
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+>>>>>>> e641fdf840a1fa5a305cb063457ff8bbe9ec4e7f
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -110,6 +141,11 @@ body {
 }
 ol,
 ul {
+<<<<<<< HEAD
+=======
+  margin: 0;
+  padding: 0;
+>>>>>>> e641fdf840a1fa5a305cb063457ff8bbe9ec4e7f
   list-style: none;
 }
 blockquote,
@@ -135,9 +171,12 @@ a {
   text-decoration: none;
   color: inherit;
 }
+<<<<<<< HEAD
 ul,
 ol {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+=======
+>>>>>>> e641fdf840a1fa5a305cb063457ff8bbe9ec4e7f
