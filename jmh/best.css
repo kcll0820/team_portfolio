@@ -1,0 +1,29 @@
+.best {
+  background-color: white;
+  padding: 20px 10px;
+}
+
+.best > strong {
+  font-size: 13px;
+}
+
+.best_title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.best_title > button {
+  width: 100%;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.best_title > button:hover {
+  color: var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+}

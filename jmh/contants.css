@@ -1,0 +1,60 @@
+@media screen and (max-width: 480px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}
+
+main {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f0f0f0;
+}
+
+.contants {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contants > img {
+  width: 100%;
+}
+
+.contants_box {
+  background-color: white;
+  padding: 20px 10px;
+}
+
+.contants_box > strong {
+  font-size: 13px;
+}
+
+.contants_category {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.contents_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contents_icon > img {
+  width: 100%;
+}
+
+.contents_icon > span {
+  font-size: 8px;
+  font-weight: 700;
+}
