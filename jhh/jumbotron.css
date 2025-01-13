@@ -1,0 +1,17 @@
+.tip__main{
+    max-width : 600px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid rgb(235, 234, 234);
+}.tip__title{
+    display: flex;
+    flex-direction: column;
+}
+.tip__title>div{
+    display: flex;
+    flex-direction: row;
+}
+.tip__title>div>img{
+    width: 200px;
+    height: 200px;
+}
