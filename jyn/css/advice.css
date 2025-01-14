@@ -1,0 +1,102 @@
+.advice {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.advice > strong {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+strong > span {
+  font-size: 13px;
+  color: var(--font-gray);
+}
+
+strong > span > i {
+  margin-left: 3px;
+  font-weight: normal;
+}
+
+.advice_list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 0 20px 0;
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.advice_list > b {
+  font-size: 13px;
+  color: var(--main-color);
+}
+
+.advice_list > strong {
+  vertical-align: bottom;
+}
+
+.advice_list > strong > i {
+  font-size: 8px;
+  color: white;
+  background-color: red;
+  padding: 4px 5px;
+  border-radius: 3px;
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+.advice_list > p {
+  font-size: 13px;
+  margin: 15px 0;
+}
+
+.advice_writer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.advice_make > i {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.advice_make > span {
+  color: var(--font-gray);
+}
+
+.advice_view {
+  color: var(--font-gray);
+}
+
+.advice_view > span {
+  margin-right: 10px;
+}
+
+.advice_view > span > i {
+  margin-right: 5px;
+}
+
+.advice_btn > button {
+  color: var(--main-color);
+  background-color: white;
+  border: none;
+  line-height: 30px;
+  transition: all 0.5s;
+  font-size: 13px;
+  margin-right: 5px;
+  padding: 0 5px;
+}
+
+.advice_btn > button:hover {
+  background-color: #f4faff;
+  border-radius: 5px;
+  border: none;
+}
