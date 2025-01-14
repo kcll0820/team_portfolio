@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .tip__main{
     width: 100%;
     display: flex;
@@ -22,12 +23,25 @@
     font-size: 20px;
     font-weight: 700;
 
+=======
+.tip__main {
+  max-width: 600px;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 10px solid rgb(235, 234, 234);
 }
-.tip__title>span{
-    font-size: 13px;
-    color: #01398c;
-    margin-bottom: 20px;
+.tip__title {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+>>>>>>> 8dff0e64b93a062a2e6cd8cb7c11a8551ef201a1
 }
+.tip__title > strong {
+  font-size: 20px;
+  font-weight: 700;
+}
+<<<<<<< HEAD
 .tip__img{
     width: 100%;
     display: flex;
@@ -73,3 +87,40 @@
     border: 1px solid rgb(235, 234, 234);
     margin-top: 50px;
 }
+=======
+.tip__title > span {
+  font-size: 13px;
+  color: #01398c;
+  margin-bottom: 20px;
+}
+.tip__img {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.tip__img > figcaption {
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.tip__img > figcaption:hover > img {
+  transform: scale(1.05);
+}
+.tip__img > figcaption > img {
+  width: 270px;
+  height: 200px;
+  border-radius: 10px;
+  transition: all 1s;
+  object-fit: cover;
+}
+.tip__title > button {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(235, 234, 234);
+  margin-top: 50px;
+}
+>>>>>>> 8dff0e64b93a062a2e6cd8cb7c11a8551ef201a1

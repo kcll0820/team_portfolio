@@ -55,8 +55,6 @@ strong > span > i {
 .advice_list > p {
   font-size: 13px;
   margin: 15px 0;
-  color: var(--font-gray);
-  line-height: 1.4;
 }
 
 .advice_writer {
