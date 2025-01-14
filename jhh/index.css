@@ -1,75 +1,76 @@
 :root {
-    --main-color: #01398c;
-    --font-black: #1a1a1a;
-    --font-gray: rgb(129, 129, 129);
+  --main-color: #01398c;
+  --font-black: #1a1a1a;
+  --font-gray: rgb(129, 129, 129);
 }
 
-@media screen and (min-width: 480px) {
+/* @media screen and (max-width: 480px) {
     main {
         width: 100vw;
         height: 100vh;
         overflow-x: hidden;
         overflow-y: scroll;
     }
+} */
+main {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
 }
-main{width: 100vw;
-
+.tab__menu {
+  max-width: 600px;
+  margin: 0 auto;
 }
-.tab__menu{
-    max-width : 600px;
-    margin: 0 auto;
-    
+.tab__buttonmenu {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border-bottom: 10px solid rgb(235, 234, 234);
 }
-.tab__buttonmenu{
-    max-width : 600px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    border-bottom: 10px solid rgb(235, 234, 234);
+.tab__button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0 auto;
 }
-.tab__button{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin: 0 auto;
+.tab__buttonhome {
+  background-color: #01398c;
+  color: white;
+  padding: 5px 30px;
+  border: 1px solid rgb(129, 129, 129);
+  border-radius: 20px;
+  font-size: 13px;
+  margin: 13px 0px;
 }
-.tab__buttonhome{
-    background-color: #01398c;
-    color: white;
-    padding: 5px 30px;
-    border: 1px solid rgb(129, 129, 129);
-    border-radius: 20px;
-    font-size: 13px;
-    margin: 13px 0px;
+.tab__button > p {
+  display: flex;
+  border: 1px solid rgb(129, 129, 129);
+  border-radius: 20px;
+  color: rgb(129, 129, 129);
+  font-size: 13px;
+  padding: 5px 10px;
 }
-.tab__button>p{
-    display: flex;
-    border: 1px solid rgb(129, 129, 129);
-    border-radius: 20px;
-    color: rgb(129, 129, 129);
-    font-size: 13px;
-    padding: 5px 10px;
+.tab__button > p > i {
+  font-size: 13px;
+  padding: 3px 0px 0px 5px;
 }
-.tab__button>p>i{
-    font-size: 13px;
-    padding: 3px 0px 0px 5px; 
+.tab__search {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  margin-bottom: 20px;
 }
-.tab__search{
-    display: flex;
-    margin: 0 auto;    
-    align-items: center;
-    gap: 5px;
-    font-size: 13px; 
-    margin-bottom: 20px;
+.tab__search--bar {
+  color: rgb(129, 129, 129);
+  background-color: rgb(235, 234, 234);
+  border-radius: 5px;
+  padding: 5px 300px 5px 20px;
 }
-.tab__search--bar{
-color: rgb(129, 129, 129);
-    background-color: rgb(235, 234, 234);
-    border-radius: 5px;
-    padding: 5px 300px 5px 20px;
-}
-.tab__search--button{
-    border: 1px solid rgb(235, 234, 234);
-    border-radius: 5px;
-    padding: 5px;
+.tab__search--button {
+  border: 1px solid rgb(235, 234, 234);
+  border-radius: 5px;
+  padding: 5px;
 }
