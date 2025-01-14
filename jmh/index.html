@@ -32,7 +32,9 @@
         />
       </div>
       <h1 class="logo">
-        <img src="https://oneroommaking.com/morenvyimg/logo.png" alt="" />
+        <a href="">
+          <img src="https://oneroommaking.com/morenvyimg/logo.png" alt="" />
+        </a>
       </h1>
       <div class="right">
         <div class="search">
@@ -52,14 +54,14 @@
     </header>
     <nav class="menu">
       <ul>
-        <li><a href="/">홈</a></li>
+        <li><a href="">홈</a></li>
         <li>
-          <a href="" class="point"
+          <a href="prac.html" class="point"
             >단독세일
             <div class="point"></div
           ></a>
         </li>
-        <li><a href="" class="green">자취생활</a></li>
+        <li><a href="../jhh/index.html" class="green">자취생활</a></li>
       </ul>
     </nav>
     <aside>
@@ -281,7 +283,7 @@
 
     <div class="fix-bar">
       <div>
-        <a href="">
+        <a href="prac.html">
           <img
             src="https://oneroommaking.com/web/mobile/220328_wish01.png"
             alt=""
@@ -290,7 +292,7 @@
         </a>
       </div>
       <div>
-        <a href="/">
+        <a href="">
           <img
             src="https://oneroommaking.com/web/mobile/220328_home02.png"
             alt=""
@@ -299,7 +301,7 @@
         </a>
       </div>
       <div>
-        <a href="">
+        <a href="../jhh/index.html">
           <img
             src="https://oneroommaking.com/web/mobile/storybook.png"
             alt=""
@@ -502,7 +504,6 @@
 <script>
   // 스크롤할때 nav
   $(window).on("scroll", function () {
-    console.log(window.scrollY);
     if (window.scrollY > 50) {
       $("nav").css("position", "fixed");
       $("nav").css("top", "0");

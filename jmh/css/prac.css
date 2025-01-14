@@ -1,0 +1,243 @@
+@media screen and (min-width: 480px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}
+
+:not(svg) {
+  transform-origin: 0px 0px;
+}
+
+#mfooter .ft_board ul {
+  display: flex;
+  align-items: center;
+}
+
+#mfooter {
+  position: relative;
+  border: 0;
+  margin: 50px 0px 0;
+  border-top: 1px solid #e9e9e9;
+}
+
+#mfooter:after,
+#mfooter:before {
+  display: none;
+}
+
+#mfooter .ft_board {
+  font-size: 0px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+#mfooter .ft_board ul {
+  display: flex;
+  align-items: center;
+}
+
+#mfooter .ft_board ul li {
+  flex: 1 1 auto;
+  display: inline-block;
+  text-align: center;
+}
+
+#mfooter .ft_board ul li + li {
+  border-left: 1px solid #e9e9e9;
+}
+
+#mfooter .ft_board ul li a {
+  display: block;
+  font-size: 15px;
+  line-height: 48px;
+  color: #1a1a1a;
+  font-weight: 500;
+  position: relative;
+}
+
+#mfooter .ft_board ul li a.first:after {
+  content: "";
+  border-right: 1px solid #e9e9e9;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+}
+
+#mfooter .wrap_ft {
+  padding: 15px 0% 80px;
+  box-sizing: border-box;
+  background: #f9f9f9;
+}
+
+#mfooter #toggle {
+  margin: 0 auto;
+  padding: 0;
+  word-break: keep-all;
+}
+
+#mfooter #toggle > ul {
+  border-top: 0px solid #222;
+  border-bottom: 0px solid #e1e1e1;
+}
+
+#mfooter #toggle > ul > li {
+  list-style-type: none;
+  cursor: pointer;
+  color: #222;
+  font-size: 15px;
+  font-weight: 800;
+  border-top: 0px solid #ddd;
+  border-bottom: 0px solid #ddd;
+  margin: 0px;
+  padding: 14px 14px 12px;
+  position: relative;
+}
+
+#mfooter #toggle > ul > li:first-child {
+  border-top: 0;
+}
+
+#mfooter #toggle > ul > li:hover {
+  color: #000;
+}
+
+#mfooter #toggle > ul > li.active {
+  color: #000;
+}
+
+#mfooter #toggle > ul > div {
+  color: #999;
+  cursor: auto;
+  display: none;
+  font-size: 13px;
+  padding: 16px 14px;
+  text-decoration: none;
+  border-top: 1px solid #f9f9f9;
+  border-bottom: 0px solid #ddd;
+  margin-top: -2px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#mfooter #toggle > ul > div a {
+}
+
+#mfooter #toggle > ul > div p {
+}
+
+#mfooter #toggle li div:hover {
+  text-decoration: none !important;
+}
+
+#mfooter #toggle > ul > li .angle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.4s ease 0s;
+}
+
+#mfooter #toggle > ul > li.active .angle {
+  transform: translateY(-50%) rotateZ(180deg);
+}
+
+#mfooter #toggle > ul > li .angle i {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: xeicon !important;
+  color: #b3b3b3;
+}
+
+#mfooter .mf_sec01 .ft_info_name {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0px 0px 16px;
+}
+
+#mfooter .mf_sec01 .sub_title {
+  margin: 0 0 4px;
+}
+
+#mfooter .mf_sec01 .sub_title span {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+#mfooter .mf_sec01 .sub_title span a {
+  color: #1a1a1a;
+}
+
+#mfooter .mf_sec01 .sub ul li {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #9a9a9a;
+}
+
+#mfooter .mf_sec01 .sub ul li span.line {
+  display: inline-block;
+  width: 1px;
+  height: 10px;
+  margin: 0 4px 0px 8px;
+  line-height: 20px;
+  background: #dadada;
+}
+
+#mfooter .mf_sec01 .sub span {
+  display: block;
+  margin: 4px 0px 0px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #9a9a9a;
+  line-height: 20px;
+}
+
+#mfooter .mf_sec02 {
+  padding: 0px 0 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#mfooter .mf_sec02 .ft_menu {
+  padding-bottom: 0px;
+  font-size: 0px;
+}
+
+#mfooter .mf_sec02 .ft_menu a {
+  display: block;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #9a9a9a;
+  padding: 0px 0px;
+}
+
+#mfooter .mf_sec02 .ft_menu a:first-child {
+}
+
+#mfooter .ft_info {
+  line-height: 1.5em;
+}
+
+.amit-id___halli_01 > div {
+  width: 100%;
+  padding: 20px;
+}
