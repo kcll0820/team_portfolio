@@ -1,8 +1,7 @@
 .tip__main{
     max-width : 600px;
     display: flex;
-    margin: 0 auto;
-    border: 1px solid rgb(235, 234, 234);    
+    margin: 0 auto; 
     border-bottom: 10px solid rgb(235, 234, 234);
 }.tip__title{
     padding: 20px 0px;
