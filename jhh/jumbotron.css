@@ -1,15 +1,23 @@
 .tip__main{
-    max-width : 600px;
+    width: 100%;
     display: flex;
-    margin: 0 auto; 
     border-bottom: 10px solid rgb(235, 234, 234);
-}.tip__title{
+}
+
+.tip__layout {
+    padding: 20px;
+    width: 100%;
+    max-width : 480px;
+    margin: 0 auto;
+}
+
+.tip__title{
     padding: 20px 0px;
     display: flex;
     flex-direction: column;
-    margin-left: 25px;
 
 }
+
 .tip__title>strong{
     font-size: 20px;
     font-weight: 700;
@@ -21,26 +29,41 @@
     margin-bottom: 20px;
 }
 .tip__img{
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
     font-weight: 700;
     font-size: 14px;
-}
-.tip__img>figcaption{
+    object-fit: cover;
     text-align: center;
     border-radius: 10px;
     overflow: hidden;
 }
-.tip__img>figcaption>img:hover{
+
+.tip__img > img:hover{
     transform: scale(1.05);
 }
-.tip__img>figcaption>img{
-    width: 270px;
-    height: 200px;    
+
+.tip__card > img{
+    width: 100%;  
+    height: 200px;
     border-radius: 10px;
     transition: all 1s;
     object-fit: cover;
+}
+
+.tip_card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tip__photo {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
 }
 .tip__title>button{
     font-size: 14px;

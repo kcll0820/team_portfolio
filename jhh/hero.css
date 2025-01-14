@@ -1,15 +1,16 @@
 .consult__main{
-    max-width : 600px;
+    width: 100%;
+    max-width : 480px;
+    margin: 0 auto;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     border-bottom: 10px solid rgb(235, 234, 234);
     padding-bottom: 20px;
 }
 .consult__layout{
     display: flex;
     flex-direction: column;
-    margin: 25px;
     border-bottom: 1px solid rgb(235, 234, 234);
 }
 .consult__title{
@@ -110,7 +111,7 @@
 
 
 .guide__layout{
-    max-width : 600px;
+    max-width : 480px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
