@@ -54,6 +54,8 @@ strong > span > i {
 
 .advice_list > p {
   font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .advice_writer {
