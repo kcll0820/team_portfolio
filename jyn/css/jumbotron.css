@@ -1,0 +1,80 @@
+.tip__main {
+  width: 100%;
+  display: flex;
+  border-bottom: 10px solid rgb(235, 234, 234);
+}
+
+.tip__layout {
+  padding: 20px;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.tip__title {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tip__title > strong {
+  font-size: 20px;
+  font-weight: 700;
+}
+.tip__title > strong {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.tip__title > span {
+  font-size: 15px;
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+.tip__img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  object-fit: cover;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tip__img > img:hover {
+  transform: scale(1.05);
+}
+
+.tip__card > img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  transition: all 1s;
+  object-fit: cover;
+}
+
+.tip_card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tip__photo {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.tip__photo p {
+  margin-top: 10px;
+}
+.tip__title > button {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(235, 234, 234);
+  margin-top: 50px;
+}

@@ -11,16 +11,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../common/reset.css" />
-    <link rel="stylesheet" href="../common/root.css" />
     <link
       href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../common/reset.css" />
+    <link rel="stylesheet" href="../common/root.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/contants.css" />
-    <link rel="stylesheet" href="css/sale.css" />
-    <link rel="stylesheet" href="css/best.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/jumbotron.css" />
+    <link rel="stylesheet" href="css/hero.css" />
     <link rel="stylesheet" href="css/advice.css" />
   </head>
   <body>
@@ -32,7 +32,7 @@
         />
       </div>
       <h1 class="logo">
-        <a href="">
+        <a href="index.html">
           <img src="https://oneroommaking.com/morenvyimg/logo.png" alt="" />
         </a>
       </h1>
@@ -54,7 +54,7 @@
     </header>
     <nav class="menu">
       <ul>
-        <li><a href="">홈</a></li>
+        <li><a href="index.html">홈</a></li>
         <li>
           <a href="prac.html" class="point"
             >단독세일
@@ -292,7 +292,7 @@
         </a>
       </div>
       <div>
-        <a href="">
+        <a href="index.html">
           <img
             src="https://oneroommaking.com/web/mobile/220328_home02.png"
             alt=""
@@ -312,113 +312,68 @@
     </div>
 
     <main>
-      <div class="contants">
-        <img src="img/first.jpg" alt="" />
-        <div class="contants_box">
-          <strong>뭐 찾으시는 거 있으세요?</strong>
-          <div class="contants_category">
-            <div class="contents_icon">
-              <img src="img/winter.png" alt="" />
-              <span>겨울 원룸</span>
-            </div>
-            <div class="contents_icon">
-              <img src="img/price.png" alt="" />
-              <span>만원 이하</span>
-            </div>
-            <div class="contents_icon">
-              <img src="img/house.png" alt="" />
-              <span>집순돌이 코너</span>
-            </div>
-            <div class="contents_icon">
-              <img src="img/present.png" alt="" />
-              <span>집들이 선물</span>
-            </div>
-            <div class="contents_icon">
-              <img src="img/item.png" alt="" />
-              <span>자취 필수템</span>
-            </div>
-            <div class="contents_icon">
-              <img src="img/tip.png" alt="" />
-              <span>자취 꿀팁</span>
-            </div>
-            <div class="contents_icon">
-              <img src="img/try.png" alt="" />
-              <span>직접 써봄</span>
-            </div>
-            <div class="contents_icon">
-              <img src="img/set.png" alt="" />
-              <span>세트메뉴</span>
-            </div>
+      <section class="tab__menu">
+        <article class="tab__buttonmenu">
+          <div class="tab__button">
+            <span class="tab__buttonhome">홈</span>
+            <p>자취꿀팁</p>
+            <p>자취상담<i class="fa-solid fa-n"></i></p>
+            <p>방꾸미기<i class="fa-solid fa-n"></i></p>
+            <p>자랑대회</p>
+            <p>이벤트</p>
           </div>
-        </div>
-      </div>
-      <div class="sale">
-        <strong>단독세일 들어갑니다</strong>
-        <div class="sale_box">
-          <img src="img/sale.jpg" alt="" />
-          <div class="sale_info">
-            <button>2일 06:48:42 후 종료</button>
-            <strong>자동 불끄기 스위치</strong>
-            <span>~1월 15일까지</span>
-            <div class="sale_price"><span>35%</span>27,900원</div>
+          <div class="tab__search">
+            <span class="tab__search--bar">찾으시는 콘텐츠 있으세요?</span>
+            <span class="tab__search--button">검색</span>
           </div>
-        </div>
-        <button>단독세일 더 보러가기</button>
-      </div>
-      <div class="best">
-        <strong>저희 베스트 메뉴입니다!</strong>
-        <div class="best_box">
-          <div class="best_title">
-            <button>오늘의 베스트</button>
-            <button>카테고리 베스트</button>
-          </div>
-          <div class="best_chart">
-            <img class="gold" src="img/port.jpg" alt="" />
-            <div class="best_item">
-              <strong>내솥분리 멀티포트</strong>
-              <span>~1월 16일까지</span>
-              <div class="best_price">
-                <span class="best_sale"><span>57%</span>42,900원</span>
-                <span class="best_review"
-                  ><i class="fa-solid fa-star"></i>4.7 (686)</span
-                >
+        </article>
+      </section>
+      <section class="tip__main">
+        <div class="tip__layout">
+          <article class="tip__title">
+            <strong>자취꿀팁</strong>
+            <span>자취 초보를 위한 백과사전</span>
+            <div class="tip__img">
+              <div class="tip__photo">
+                <div class="tip__card">
+                  <img
+                    src="https://storybook-cdn.sweetoffer.co.kr/c001/oneroommake/img/1725934662742-343301.webp?h=224"
+                    alt=""
+                  />
+                  <p>첫 자취 체크리스트</p>
+                </div>
+                <div class="tip__card">
+                  <img
+                    src="https://storybook-cdn.sweetoffer.co.kr/c001/oneroommake/img/1725934649815-422501.webp?h=224"
+                    alt=""
+                  />
+                  <p>기숙사 준비물 체크리스트</p>
+                </div>
               </div>
-              <img src="img/free.png" alt="" />
-            </div>
-          </div>
-          <div class="best_chart">
-            <img class="silver" src="img/switch.jpg" alt="" />
-            <div class="best_item">
-              <strong>자동 불끄기 스위치</strong>
-              <span>~1월 15일까지</span>
-              <div class="best_price">
-                <span class="best_sale"><span>35%</span>27,900원</span>
-                <span class="best_review"
-                  ><i class="fa-solid fa-star"></i>4.8 (326)</span
-                >
+              <div class="tip__photo">
+                <div class="tip__card">
+                  <img
+                    src="https://storybook-cdn.sweetoffer.co.kr/c001/oneroommake/img/1736822876665-545566.webp?h=224"
+                    alt=""
+                  />
+                  <p>첫 자취 체크리스트</p>
+                </div>
+                <div class="tip__card">
+                  <img
+                    src="https://storybook-cdn.sweetoffer.co.kr/c001/oneroommake/img/1725934649815-422501.webp?h=224"
+                    alt=""
+                  />
+                  <p>기숙사 준비물 체크리스트</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="best_chart">
-            <img class="bronze" src="img/vacuum.jpg" alt="" />
-            <div class="best_item">
-              <strong>330W 흡입력 괴물 청소기</strong>
-              <span>널 괴물어주고싶어</span>
-              <div class="best_price">
-                <span class="best_sale"><span>39%</span>109,800원</span>
-                <span class="best_review"
-                  ><i class="fa-solid fa-star"></i>4.8 (506)</span
-                >
-              </div>
-              <img src="img/free.png" alt="" />
-            </div>
-          </div>
+            <button>
+              더 보러가기 <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </article>
         </div>
-        <button>
-          인기차트 더 보러가기<i class="fa-solid fa-angle-right"></i>
-        </button>
-      </div>
-      <div class="advice">
+      </section>
+      <section class="advice">
         <strong>
           자취상담소<span>더 보기<i class="fa-solid fa-angle-right"></i></span>
         </strong>
@@ -495,7 +450,33 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section class="guide__layout">
+        <article class="guide__title">
+          <div>
+            <strong>자취생활 가이드</strong>
+            <span>잘 쓰는 방법 알려드립니다</span>
+          </div>
+          <span
+            >더 보러가기
+            <i class="fa-solid fa-chevron-right"></i>
+          </span>
+        </article>
+        <article class="guide__point">
+          <div class="guide__pointfirst">
+            <img
+              src="https://storybook-cdn.sweetoffer.co.kr/c001/oneroommake/img/1736752107296-014370.webp?h=96"
+              alt=""
+            />자취상담 포인트 받는 방법
+          </div>
+          <div>
+            <img
+              src="https://storybook-cdn.sweetoffer.co.kr/c001/oneroommake/img/1721369356542-448067.webp?h=96"
+              alt=""
+            />자취생활 이용 방법
+          </div>
+        </article>
+      </section>
     </main>
   </body>
 </html>

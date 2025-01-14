@@ -1,0 +1,97 @@
+:root {
+  --main-color: #01398c;
+  --font-black: #1a1a1a;
+  --font-gray: rgb(129, 129, 129);
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}
+
+main {
+  width: 100%;
+}
+section {
+  margin-bottom: 10px;
+}
+.tab__menu {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.tab__buttonmenu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+}
+.tab__button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.tab__button::-webkit-scrollbar {
+  display: none;
+}
+.tab__button span,
+.tab__button p {
+  border: 1px solid rgb(129, 129, 129);
+  border-radius: 20px;
+  font-size: 13px;
+  color: var(--font-gray);
+  font-weight: 700;
+  margin: 13px 0px;
+  padding: 10px 10px;
+  width: fit-content;
+  height: fit-content;
+  white-space: nowrap;
+}
+.tab__button .tab__buttonhome {
+  padding: 10px 20px;
+  background-color: var(--main-color);
+  color: white !important;
+}
+.tab__button > p > i {
+  font-size: 10px;
+  padding: 3px 0px 0px 5px;
+}
+.tab__search {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.tab__search {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.tab__search--bar {
+  color: rgb(129, 129, 129);
+  background-color: rgb(235, 234, 234);
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px 10px;
+}
+.tab__search--button {
+  width: 50px;
+  border: 1px solid rgb(235, 234, 234);
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0px;
+}
