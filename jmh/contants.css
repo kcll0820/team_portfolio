@@ -21,6 +21,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
 .contants > img {
@@ -28,33 +29,37 @@ main {
 }
 
 .contants_box {
+  width: 100%;
   background-color: white;
-  padding: 20px 10px;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contants_box > strong {
-  font-size: 13px;
+  font-size: 16px;
+  margin-left: 10px;
 }
 
 .contants_category {
-  width: 100%;
+  width: 610px;
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 3px;
   margin-top: 10px;
 }
 
 .contents_icon {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 5px;
   align-items: center;
 }
 
-.contents_icon > img {
-  width: 100%;
+.contants_icon > img {
 }
 
 .contents_icon > span {
-  font-size: 8px;
-  font-weight: 700;
+  font-size: 13px;
 }
