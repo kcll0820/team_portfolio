@@ -12,15 +12,18 @@
         overflow-y: scroll;
     }
 }
+main{width: 100vw;
+
+}
 .tab__menu{
-    width: 100vw;
+    max-width : 600px;
+    margin: 0 auto;
+    
 }
 .tab__buttonmenu{
     max-width : 600px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
     margin: 0 auto;
     border: 1px solid rgb(235, 234, 234);
     border-bottom: 10px solid rgb(235, 234, 234);
@@ -31,17 +34,20 @@
     gap: 10px;
     margin: 0 auto;
 }
-.tab__buttonfrist{
+.tab__buttonhome{
     background-color: #01398c;
+    color: white;
     padding: 5px 30px;
     border: 1px solid rgb(129, 129, 129);
     border-radius: 20px;
     font-size: 13px;
+    margin: 13px 0px;
 }
 .tab__button>p{
     display: flex;
     border: 1px solid rgb(129, 129, 129);
     border-radius: 20px;
+    color: rgb(129, 129, 129);
     font-size: 13px;
     padding: 5px 10px;
 }
